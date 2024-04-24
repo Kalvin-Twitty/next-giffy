@@ -13,6 +13,12 @@ export default function About() {
           This application uses the Giphy API to fetch a wide variety of GIFs. Start by searching for any keyword
           and enjoy endless streams of GIF animations to share and enjoy.
         </p>
+        <nav className="fixed top-0 left-0 right-0 bg-gray-800 shadow-md">
+        <ul className="flex justify-center space-x-4">
+          <li><a href="/" className="text-purple-500 hover:text-purple-700 px-3 py-2">Home</a></li>
+          <li><a href="/about" className="text-purple-500 hover:text-purple-700 px-3 py-2">About</a></li>
+        </ul>
+      </nav>
       </div>
     </div>
   );
